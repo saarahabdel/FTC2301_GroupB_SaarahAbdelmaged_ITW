@@ -150,3 +150,8 @@ section of page */
   margin-top: 200px;
   
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+} /* code to disable bottom scrollbar */
