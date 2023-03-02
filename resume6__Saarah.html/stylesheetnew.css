@@ -5,7 +5,7 @@
 }
 
 
-body {
+html {
     border-top-color:blueviolet;
     border-top-width: 200px;
     border-top-style: solid;
@@ -22,34 +22,27 @@ body {
 
 
 img {
+    position: absolute;
+    box-sizing:border-box;
     display: circle;
     border-radius: 50%;
-    position: relative;
-    box-sizing:border-box;
     width: 250px;
     height: 260px;
-    left:850px;
-    top: -100px;
-    padding: 0px;
-    margin: 0px;  
-}
-
-
-
-
-.vertical-line {
-    border-left: 6px solid black;
-    height: 1200px;
-    position: absolute;
-    left: 650px;
-    padding: 0px;
-    margin: 0px;
+    right: 380px; /*moves image left of page */
+    top: 50px;
+    padding: 0;
 }
 
 .name-position {
-    left: 840px;
     position: absolute;
-    top: 360px;
-    ;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    right: 350px;
+    top: 310px;
 }
+
+.main-position {
+}
+
 
