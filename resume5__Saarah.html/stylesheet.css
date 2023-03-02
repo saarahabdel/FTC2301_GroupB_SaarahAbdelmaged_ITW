@@ -1,47 +1,152 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
   font-family: sans-serif;
-}
+  height: auto;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 200px;
+  border-top-color: #B24BF3;
+
+  border-bottom-style: solid;
+  border-bottom-width: 200px;
+  border-bottom-color: #B24BF3;
+
+} /* code for top border */
+
 body {
-  background-color:white;
-}
-
-h3 {
-  color: #CA5CDD;
+  height: auto;
+  width: auto;
 }
 
 
 
 
-
-.paragraph-style {
-  color: black;
-  font-size: 14px;
+div {
+  position: relative;
 }
 
-.font-size-links {
-  color: blue;
-  font-size: 12px;
+img {
+  display: circle;
+  border-radius: 50%;
+  width: 250px;
+  height: 260px;
+  position: absolute;
+  right: 570px; 
+  top: -150px; /* position of image in relation to webpage */
 }
+
+h1 {
+  height: 100px;
+  width: 1000px;
+} /* code for style of name */
+
+.offset {
+  left: 520px;
+  position: relative;
+  top: 120px;
+} /* code for position of name */
 
 .navigation-links {
   color: black;
-  font-size: 13px;
-}
-
-h2 {
-  border-style: dashed;
-  border-width: 3px;
-  border-left-width: 10px;
-  border-right-width: 10px;
-  border-color: red;
-  border-radius: 10px 20px 30px 40px;    
+  font-size: 20px;
 }
 
 
 
+.left {
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+  margin-left: 100px;
+  margin-top: 200px;
+} /* code for navigation links, eventually want links on separate 
+section of page */
 
 
+.underline {
+  position: relative;
+  left:-520px;
+  top:-50px;
 
+} /* code for line under my name */
 
+.introductory-statement {
+  position: relative;
+  bottom: 100px;
+  left: 900px;
+  margin-left: -180px;
+  margin-top: -240px;
+  width: 500px;
+}
 
+.education-position {
+  position: relative;
+  bottom: 100px;
+  left: 920px;
+  margin-left: -180px;
+  margin-top: 50px;
+  width: 500px;
+}
 
+.skills-position {
+  position: relative;
+  bottom: 100px;
+  left: 920px;
+  margin-left: -180px;
+  margin-top: 90px;
+}
+
+.experience-position {
+  position: relative;
+  bottom: 100px;
+  left: 920px;
+  margin-left: -180px;
+  margin-top: 60px; 
+}
+
+.hobbies-position {
+  position: relative;
+  bottom: 100px;
+  left: 920px;
+  margin-left: -180px;
+  margin-top: 60px;
+}
+
+.capstone-position {
+  position: relative;
+  bottom: 100px;
+  left: 920px;
+  margin-left: -180px;
+  margin-top: 60px;
+}
+
+.volunteering-position {
+  position: relative;
+  bottom: 100px;
+  left: 920px;
+  margin-left: -180px;
+  margin-top: 60px;
+}
+
+.testimonials-position {
+  position: relative;
+  bottom: 100px;
+  left: 920px;
+  margin-left: -180px;
+  margin-top: 60px;
+}
+
+.contact-position {
+  position: absolute;
+  bottom: -200px;
+  left: 100px;
+  margin-left: 100px;
+  margin-top: 200px;
+  
+}
