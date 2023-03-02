@@ -142,6 +142,14 @@ body {
     margin-top: 60px;
 }
 
+.contact-position {
+    position: absolute;
+    bottom: -200px;
+    left: 100px;
+    margin-left: 100px;
+    margin-top: 200px;
+    
+}
 
   
   
