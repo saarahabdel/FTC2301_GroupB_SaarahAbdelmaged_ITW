@@ -16,6 +16,7 @@ html {
     border-bottom-style: solid;
     border-bottom-width: 200px;
     border-bottom-color: #B24BF3;
+
   } /* code for top border */
 
 body {
@@ -53,7 +54,7 @@ body {
 
  .navigation-links {
     color: black;
-    font-size: 13px;
+    font-size: 20px;
  }
 
  
@@ -62,7 +63,7 @@ body {
     position: relative;
     bottom: 100px;
     left: 100px;
-    margin-left: -60px;
+    margin-left: 100px;
     margin-top: 200px;
  } /* code for navigation links, eventually want links on separate 
  section of page */
@@ -75,9 +76,71 @@ body {
 
 } /* code for line under my name */
 
+.introductory-statement {
+    position: relative;
+    bottom: 100px;
+    left: 900px;
+    margin-left: -180px;
+    margin-top: -240px;
+    width: 500px;
+}
 
+.education-position {
+    position: relative;
+    bottom: 100px;
+    left: 920px;
+    margin-left: -180px;
+    margin-top: 50px;
+    width: 500px;
+}
 
+.skills-position {
+    position: relative;
+    bottom: 100px;
+    left: 920px;
+    margin-left: -180px;
+    margin-top: 90px;
+}
 
+.experience-position {
+    position: relative;
+    bottom: 100px;
+    left: 920px;
+    margin-left: -180px;
+    margin-top: 60px; 
+}
+
+.hobbies-position {
+    position: relative;
+    bottom: 100px;
+    left: 920px;
+    margin-left: -180px;
+    margin-top: 60px;
+}
+
+.capstone-position {
+    position: relative;
+    bottom: 100px;
+    left: 920px;
+    margin-left: -180px;
+    margin-top: 60px;
+}
+
+.volunteering-position {
+    position: relative;
+    bottom: 100px;
+    left: 920px;
+    margin-left: -180px;
+    margin-top: 60px;
+}
+
+.testimonials-position {
+    position: relative;
+    bottom: 100px;
+    left: 920px;
+    margin-left: -180px;
+    margin-top: 60px;
+}
 
 
   
