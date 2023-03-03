@@ -1,0 +1,108 @@
+.parent {
+  background-color: purple;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  flex-flow: row wrap; /*flex-direction: row; flex-wrap: wrap; */
+}
+
+img {
+  display: circle;
+  border-radius: 50%;
+  width: 250px;
+  height: 260px;  /* position of image in relation to webpage */
+  flex: 0 1 auto; /* flex-row flex-shrink flex-basis */
+  align-self:last baseline;
+}
+
+.left {
+  flex: 0 1 auto;
+  position: sticky;
+
+}
+
+.introductory-statement {
+  background-color: lightslategray;
+  margin: 5px;
+  width: 200px;
+  height: auto;
+  padding: 5px; 
+
+}
+
+.education-position {
+  background-color:lightslategray;
+  margin: 5px;
+  width: 200px;
+  height: 
+
+
+}
+
+.skills-position {
+  background-color: lightslategray;
+  margin: 5px;
+  width: 200px;
+  height: 
+
+
+}
+
+.experience-position {
+  background-color: lightslategray;
+  margin: 5px;
+  width: 200px;
+  height: 
+
+
+}
+
+.hobbies-position {
+  background-color: lightslategray; 
+  margin: 5px;
+  width: 200px;
+  height: 
+
+
+}
+
+.capstone-position {
+  background-color: lightslategray;
+  margin: 5px;
+  width: 200px;
+  height: 
+
+
+}
+
+.volunteering-position {
+  background-color: lightslategray;
+  margin: 5px;
+  width: 200px;
+  height: 
+
+
+}
+
+.testimonials.position {
+  background-color: lightslategray;
+  margin: 5px;
+  width: 200px;
+  height: auto;
+
+
+
+}
+
+.contact-position {
+  background-color: lightslategray;
+  margin: 5px;
+  width: 300px;
+  height: auto;
+
+
+}
+
+
+
+
