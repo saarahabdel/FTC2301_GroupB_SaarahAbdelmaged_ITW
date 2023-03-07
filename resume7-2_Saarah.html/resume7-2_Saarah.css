@@ -1,0 +1,100 @@
+body, ul, li, h1, h2, a{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.banner{
+    position:relative; /* banner is parent of welcome section */ 
+}
+.banner .welcome{
+    background-color: #C9A7DA;
+    color: white;
+    padding: 50px;
+    position:absolute;
+    left: 0px;
+    top: 30%; /* percentage so that message can always fit in the banner */
+}
+.banner h2{
+    font-size: 40px;
+    color: white;
+    background-color: #C9A7DA;
+}
+.banner h2 span{
+    font-size: 1.3em;
+} /* Welcome message */ /*Want to animate this block to move around my face image*/
+
+
+.banner img{
+    max-width: 100%; /* 100% width of parent tag or viewport */
+}
+
+.header{
+    background-color:#C9A7DA;
+    padding:20px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%; /* width 100% of viewport */
+    z-index: 1; /* header placed in front of banner, banner has default value of 0 */
+
+}
+
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
+    display: inline-block; /* so that border doesnt take up full width */
+    border-radius: 10px;
+}
+
+.nav-bar{
+    background-color: #C9A7DA;
+    padding: 20px;
+    position: sticky;/*for nav scroll*/
+    top: 100px;
+}
+
+nav li{
+    width: 14%;
+    display: inline-block;
+    font-size: 14px;
+}
+nav ul{
+    white-space: nowrap;/* so that items in list don't move to next line*/
+    max-width: 1200px;
+    margin: 0 auto; /* any space left over on the sides will automatically apply to both sides*/
+}
+nav li a{ /*nav anchor tags*/
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.main{
+    max-width: 100%; /* to fit viewport */
+    width: 1200px;
+    margin: 80px auto; /* margin equally distributed left and right bc of "auto" */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box; /* padding on inside, included in width */
+}
+
+h2 {
+    background-color: #b24bf3;
+    color: white;
+    text-align: center;
+}
+
+.saarahimage{
+    position: relative;
+    top: -350px;
+    right: -1000px;
+}
