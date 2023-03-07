@@ -152,38 +152,29 @@
     </section>    
         </main>
 
+    <footer class="contact-position"> <!--this should be on the bottom border of page-->    
     <h2>Contact Me:</h2>
+    <br>
     <form action="https://formsubmit.co/saarahabdel15@gmail.com" method="POST">
-        
+        <label for="subject">Subject of Email:</label>
+        <select name="subject" required>
+            <option value="Job Opportunity">Job Opportunity</option>
+            <option value="Comment on Resume">Comment on Resume</option>
+            <option value="Require Response">Require Response</option>
+        </select>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <br><br>
+
+        <label for="additionalinfo">Additional Information:</label>
+        <textarea name="additionalinfo" cols="50" rows="7"></textarea>
+        <input type="submit" name="submit" value="Submit">
     </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="contact-position"> <!--this should be on the bottom border of page-->
-        <h2>Contact</h2>
-        <br>
-          <ul>
-             <li>cell number: +27749008889</li>
-             <li>email: saarahabdel15@gmail.com saarahabdel15@icloud.com</li>
-             <li>LinkedIn: (as link)</li>
-          </ul>
-        </footer>
-
-
-
-
-   </body>
+    </footer>
+</body>
+</html>
 
 
 
