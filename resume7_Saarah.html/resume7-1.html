@@ -9,6 +9,7 @@
     <h1>Saarah Abdelmaged</h1>
 </header>
 
+<body>
 <section class="banner">
   <img src="resumebanner.png" alt="saarah resume banner" height="500px" width="2000px">
   <div class="saarahimage"> 
@@ -155,23 +156,21 @@
     <footer class="contact-position"> <!--this should be on the bottom border of page-->    
     <h2>Contact Me:</h2>
     <br>
-    <form action="https://formsubmit.co/saarahabdel15@gmail.com" method="POST">
+      <form action="https://formsubmit.co/saarahabdel15@gmail.com" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
         <label for="subject">Subject of Email:</label>
-        <select name="subject" required>
+        <select name="_subject" required> <!--_subject, to be in email subject line-->
             <option value="Job Opportunity">Job Opportunity</option>
             <option value="Comment on Resume">Comment on Resume</option>
             <option value="Require Response">Require Response</option>
         </select>
         <br><br>
 
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" required>
-        <br><br>
-
         <label for="additionalinfo">Additional Information:</label>
         <textarea name="additionalinfo" cols="50" rows="7"></textarea>
         <input type="submit" name="submit" value="Submit">
-    </form>
+      </form>
     </footer>
 </body>
 </html>
