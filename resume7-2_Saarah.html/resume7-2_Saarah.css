@@ -4,30 +4,6 @@ body, ul, li, h1, h2, a{
     font-family: sans-serif;
 }
 
-.banner{
-    position:relative; /* banner is parent of welcome section */ 
-}
-.banner .welcome{
-    background-color: #C9A7DA;
-    color: white;
-    padding: 50px;
-    position:absolute;
-    left: 0px;
-    top: 30%; /* percentage so that message can always fit in the banner */
-}
-.banner h2{
-    font-size: 40px;
-    color: white;
-    background-color: #C9A7DA;
-}
-.banner h2 span{
-    font-size: 1.3em;
-} /* Welcome message */ /*Want to animate this block to move around my face image*/
-
-
-.banner img{
-    max-width: 100%; /* 100% width of parent tag or viewport */
-}
 
 .header{
     background-color:#C9A7DA;
@@ -56,7 +32,8 @@ header h1{
     background-color: #C9A7DA;
     padding: 20px;
     position: sticky;/*for nav scroll*/
-    top: 100px;
+    top: 0px;
+    max-width: 100%;
 }
 
 nav li{
@@ -97,4 +74,21 @@ h2 {
     position: relative;
     top: -350px;
     right: -1000px;
+}
+
+.picture{
+    position:relative;
+    max-width: 100%;
+}
+
+.introductory-statement{
+    position:absolute;
+    left: 0px;
+    top: 15%;
+    background-color: antiquewhite;
+    color: black;
+    padding: 30px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
 }
