@@ -1,0 +1,20 @@
+.picture{
+    position: relative;
+}
+
+
+.header{
+    max-width: 100%;
+}
+
+.introductory-statement{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    background-color:blanchedalmond;
+    color: black;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+
+}
