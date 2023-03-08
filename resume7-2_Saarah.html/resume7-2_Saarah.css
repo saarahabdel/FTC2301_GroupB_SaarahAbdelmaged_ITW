@@ -17,16 +17,7 @@ body, ul, li, h1, h2, a{
 
 }
 
-header h1{
-    color: white;
-    border: 8px solid white;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 12px;
-    padding-left: 12px;
-    display: inline-block; /* so that border doesnt take up full width */
-    border-radius: 10px;
-}
+
 
 .nav-bar{
     background-color: #C9A7DA;
@@ -68,13 +59,8 @@ h2 {
     background-color: #b24bf3;
     color: white;
     text-align: center;
-}
+} /* all the headings */
 
-.saarahimage{
-    position: relative;
-    top: -350px;
-    right: -1000px;
-}
 
 .picture{
     position:relative;
@@ -91,4 +77,16 @@ h2 {
     width: 350px;
     height: 200px;
     text-align: center;
+}
+
+.mainsection{
+    max-width: 100%;
+}
+
+.div1{
+    max-width: 1050px;
+}
+
+div .img{
+    width: 1050;
 }
