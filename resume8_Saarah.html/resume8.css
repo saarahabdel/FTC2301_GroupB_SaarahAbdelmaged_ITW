@@ -1,3 +1,9 @@
+body, ul, li, h1, h2, a{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
 .picture{
     position: relative;
 }
@@ -17,4 +23,59 @@
     width: 200px;
     text-align: center;
 
+}
+
+.header{
+    background-color:blanchedalmond;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    color: white;
+    border: 6px solid white;
+    padding: 4px 10px; /* first value top bottom, second value left and right */
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.nav-bar{
+    background-color: blanchedalmond;
+    padding: 20px;
+    position:sticky;
+    top: 97px;
+}
+
+.nav-bar li{
+    width: 17%;
+    display: inline-block;
+    font-size: 24px;
+
+}
+
+.nav-bar ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    max-width: 100%; /* to fit viewport */
+    width: 1200px;
+    margin: 80px auto; /* margin equally distributed left and right bc of "auto" */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box; /* padding on inside, included in width */
 }
