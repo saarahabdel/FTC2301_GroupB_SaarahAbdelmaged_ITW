@@ -22,6 +22,7 @@ body, ul, li, h1, h2, a{
     padding: 30px;
     width: 200px;
     text-align: center;
+    font-size: 15px;
 
 }
 
@@ -69,6 +70,10 @@ nav li a{
     color: black;
 }
 
+nav ul li{
+    text-align: center;
+}
+
 .main{
     max-width: 100%; /* to fit viewport */
     width: 1200px;
@@ -79,3 +84,109 @@ nav li a{
     padding-right: 40px;
     box-sizing: border-box; /* padding on inside, included in width */
 }
+
+.bars{
+    position: absolute;
+    top: 75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 390px){ /*Iphone 12 Pro*/
+
+
+    
+    .introductory-statement{
+        position: relative; /* back to original position*/
+        width: 100%;
+        text-align: left;
+        top: -2px;
+
+    }
+
+    .introductory-statement h3{
+        white-space: nowrap;
+    }
+
+    .introductory-statement h2{
+        text-align: left;
+    }
+
+    nav i span{
+        font-size: 12px;
+    } 
+    
+    .header{
+        position: relative;
+        font-size:small;
+    }
+
+    
+    .nav-bar{
+        top: 20px;
+        position: sticky;
+        width: 100%;
+    }
+
+    .picture{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+}
+
+
+
+    @media screen and (max-width: 820px){ /*Ipad Air*/
+    
+        .introductory-statement{
+            font-size: 13px;
+            position: relative; /* back to original position*/
+            width: 100%;
+            text-align: center;
+            top: -2px;
+
+        }
+    
+        .nav-bar{
+            top: 92px;
+        }
+
+        .header{
+            font-size: 14px;    
+        }
+    }
+
+    
+    @media screen and (max-width: 500px){
+    
+        .navigation-links{
+            font-size: 20px;
+            display: block;
+            width: 100%;
+            margin: 12px 0;
+        }
+    }
+
+    @media screen and (max-width: 1160px){
+        .nav-bar li{
+            font-size: 14px;
+            display: block;
+            width: 100%;
+            margin: 12px 0;
+        } 
+    }
