@@ -105,7 +105,7 @@ nav ul li{
 
     
     .introductory-statement{
-        position: relative; /* back to original position*/
+        position: relative; 
         width: 100%;
         text-align: left;
         top: -2px;
@@ -150,7 +150,7 @@ nav ul li{
     
         .introductory-statement{
             font-size: 13px;
-            position: relative; /* back to original position*/
+            position: relative; 
             width: 100%;
             text-align: center;
             top: -2px;
